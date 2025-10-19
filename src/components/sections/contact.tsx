@@ -9,7 +9,7 @@ export default function ContactSection() {
       <div className="container mx-auto grid items-center justify-center gap-8 px-4 text-center md:px-6">
         <div className="space-y-3">
           <h2 className="text-4xl font-bold tracking-tighter md:text-5xl/tight font-headline">
-            Contacto
+            Hablemos
           </h2>
           <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-justify">
             Estoy buscando activamente una nueva oportunidad para aportar valor. Me encantaría conversar sobre cómo mis habilidades pueden beneficiar a su equipo.
