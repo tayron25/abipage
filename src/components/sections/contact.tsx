@@ -15,16 +15,16 @@ export default function ContactSection() {
         </div>
         <div className="mx-auto w-full max-w-md space-y-8">
             <div className="space-y-4">
-                <h3 className="text-2xl font-bold tracking-tighter font-headline">Contacto</h3>
-                <div className="flex justify-center gap-8">
+                <h3 className="text-3xl font-bold tracking-tighter font-headline">Contacto</h3>
+                <div className="flex justify-center gap-12">
                     <Link href="#" target="_blank" rel="noopener noreferrer" aria-label="Instagram Profile">
-                        <Instagram className="h-8 w-8 text-primary hover:scale-110 transition-transform" />
+                        <Instagram className="h-10 w-10 text-primary hover:scale-110 transition-transform" />
                     </Link>
                     <Link href="#" target="_blank" rel="noopener noreferrer" aria-label="Facebook Profile">
-                        <Facebook className="h-8 w-8 text-primary hover:scale-110 transition-transform" />
+                        <Facebook className="h-10 w-10 text-primary hover:scale-110 transition-transform" />
                     </Link>
                     <Link href="#" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
-                        <Linkedin className="h-8 w-8 text-primary hover:scale-110 transition-transform" />
+                        <Linkedin className="h-10 w-10 text-primary hover:scale-110 transition-transform" />
                     </Link>
                 </div>
             </div>
