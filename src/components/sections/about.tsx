@@ -20,11 +20,11 @@ export default function AboutSection() {
           )}
           <div className="flex flex-col justify-center space-y-4">
             <div className="space-y-2">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl font-headline text-center">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl font-headline text-left">
                 Mi Compromiso con la Salud
               </h2>
             </div>
-            <div className="space-y-4 text-secondary-foreground text-center">
+            <div className="space-y-4 text-secondary-foreground max-w-xl text-justify">
               <p>
                 Desde joven, mi interés por la farmacología nació de una necesidad muy personal: el deseo de comprender y ayudar a mi familia con sus necesidades de salud. Esta motivación se convirtió en mi vocación. Hoy, como Auxiliar de Farmacia, he transformado esa pasión en un compromiso profesional para ofrecer un cuidado excepcional a cada persona que entra por la puerta.
               </p>
