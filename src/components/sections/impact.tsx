@@ -17,12 +17,12 @@ const impacts = [
 
 export default function ImpactSection() {
   return (
-    <section id="impact" className="w-full py-12 md:py-24 lg:py-32 bg-background">
+    <section id="impact" className="w-full py-12 md:py-24 lg:py-32">
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl font-headline">Resultados que Marcan la Diferencia</h2>
-            <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+            <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-justify">
               Logros concretos que reflejan mi compromiso y eficacia en el entorno farmacéutico.
             </p>
           </div>
@@ -33,7 +33,7 @@ export default function ImpactSection() {
               <CheckCircle2 className="h-8 w-8 text-primary flex-shrink-0 mt-1" />
               <div>
                 <h3 className="text-xl font-bold">{impact.title}</h3>
-                <p className="text-muted-foreground">{impact.description}</p>
+                <p className="text-muted-foreground text-justify">{impact.description}</p>
               </div>
             </div>
           ))}

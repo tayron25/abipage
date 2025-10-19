@@ -18,7 +18,7 @@ export default function HeroSection() {
               <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none font-headline">
                 Génesis Abigail Rojas Herrera
               </h1>
-              <p className="max-w-[600px] text-muted-foreground md:text-xl">
+              <p className="max-w-[600px] text-muted-foreground md:text-xl text-justify">
                 Comprometida con la eficiencia operativa y un cuidado excepcional del paciente.
               </p>
             </div>
