@@ -4,11 +4,11 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 export default function AboutSection() {
   const pharmacyImage = PlaceHolderImages.find(p => p.id === 'pharmacy-interior');
   return (
-    <section id="about" className="w-full py-12 md:py-24 lg:py-32">
+    <section id="about" className="w-full py-12 md:py-24 lg:py-32 bg-background">
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid gap-10 lg:grid-cols-2 lg:gap-16 items-center">
           {pharmacyImage && (
-            <div className="order-2 lg:order-1">
+            <div className="flex items-center justify-center">
               <Image
                 src={pharmacyImage.imageUrl}
                 alt={pharmacyImage.description}
@@ -18,7 +18,7 @@ export default function AboutSection() {
               />
             </div>
           )}
-          <div className="flex flex-col justify-center space-y-4 order-1 lg:order-2">
+          <div className="flex flex-col justify-center space-y-4">
             <div className="space-y-2">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl font-headline text-center lg:text-left">
                 Mi Compromiso con la Salud
