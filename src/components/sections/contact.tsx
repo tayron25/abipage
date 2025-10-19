@@ -18,10 +18,10 @@ export default function ContactSection() {
         <div className="mx-auto w-full max-w-md space-y-8">
             <div className="space-y-4">
                 <div className="flex justify-center gap-16">
-                    <Link href="#" target="_blank" rel="noopener noreferrer" aria-label="Instagram Profile">
+                    <Link href="https://www.instagram.com/abigailrojas090" target="_blank" rel="noopener noreferrer" aria-label="Instagram Profile">
                         <Instagram className="h-12 w-12 text-primary hover:scale-110 transition-transform" />
                     </Link>
-                    <Link href="#" target="_blank" rel="noopener noreferrer" aria-label="Facebook Profile">
+                    <Link href="https://www.facebook.com/profile.php?id=100072744185571" target="_blank" rel="noopener noreferrer" aria-label="Facebook Profile">
                         <Facebook className="h-12 w-12 text-primary hover:scale-110 transition-transform" />
                     </Link>
                     <Link href="#" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
