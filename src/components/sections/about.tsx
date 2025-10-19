@@ -24,7 +24,7 @@ export default function AboutSection() {
                 Mi Compromiso con la Salud
               </h2>
             </div>
-            <div className="space-y-4 text-secondary-foreground text-justify">
+            <div className="space-y-4 text-secondary-foreground text-center">
               <p>
                 Desde joven, mi interés por la farmacología nació de una necesidad muy personal: el deseo de comprender y ayudar a mi familia con sus necesidades de salud. Esta motivación se convirtió en mi vocación. Hoy, como Auxiliar de Farmacia, he transformado esa pasión en un compromiso profesional para ofrecer un cuidado excepcional a cada persona que entra por la puerta.
               </p>
