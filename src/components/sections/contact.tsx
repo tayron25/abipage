@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Linkedin, Mail, User } from "lucide-react";
+import { Facebook, Instagram, Linkedin, Mail } from "lucide-react";
 import Link from 'next/link';
 
 export default function ContactSection() {
@@ -15,41 +15,29 @@ export default function ContactSection() {
             Estoy buscando activamente una nueva oportunidad para aportar valor. Me encantaría conversar sobre cómo mis habilidades pueden beneficiar a su equipo.
           </p>
         </div>
-        <div className="mx-auto mt-12 grid max-w-5xl items-start gap-8 lg:grid-cols-2 lg:gap-12">
+        <div className="mx-auto mt-12 w-full max-w-md">
             <Card>
                 <CardHeader>
-                    <CardTitle>Información de Contacto</CardTitle>
+                    <CardTitle>Ponte en Contacto</CardTitle>
                 </CardHeader>
-                <CardContent className="space-y-4">
-                    <div className="flex items-center gap-4">
-                        <User className="h-6 w-6 text-primary" />
-                        <span className="text-lg">Génesis Abigail Rojas Herrera</span>
+                <CardContent className="space-y-6">
+                    <div className="flex justify-center gap-8">
+                        <Link href="#" target="_blank" rel="noopener noreferrer" aria-label="Instagram Profile">
+                            <Instagram className="h-8 w-8 text-primary hover:scale-110 transition-transform" />
+                        </Link>
+                        <Link href="#" target="_blank" rel="noopener noreferrer" aria-label="Facebook Profile">
+                            <Facebook className="h-8 w-8 text-primary hover:scale-110 transition-transform" />
+                        </Link>
+                        <Link href="#" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
+                            <Linkedin className="h-8 w-8 text-primary hover:scale-110 transition-transform" />
+                        </Link>
                     </div>
-                    <div className="flex items-center gap-4">
+                    <div className="flex items-center justify-center gap-4 border-t pt-6">
                         <Mail className="h-6 w-6 text-primary" />
                         <a href="mailto:abigailrojasdecuellar@gmail.com" className="text-lg hover:text-primary transition-colors">abigailrojasdecuellar@gmail.com</a>
                     </div>
-                    <div className="flex items-center gap-4">
-                        <Linkedin className="h-6 w-6 text-primary" />
-                        <Link href="#" target="_blank" rel="noopener noreferrer" className="text-lg hover:text-primary transition-colors">Perfil de LinkedIn</Link>
-                    </div>
                 </CardContent>
             </Card>
-            <div className="flex flex-col items-center justify-center space-y-4">
-                <Card className="w-full">
-                    <CardHeader>
-                        <CardTitle>¿Listo para conversar?</CardTitle>
-                    </CardHeader>
-                    <CardContent className="flex flex-col items-center gap-4">
-                        <p className="text-muted-foreground">
-                            Descarga mi currículum para ver mi experiencia en detalle.
-                        </p>
-                        <Button asChild size="lg" className="w-full">
-                            <a href="/genesis-rojas-cv.pdf" download>Descargar mi CV</a>
-                        </Button>
-                    </CardContent>
-                </Card>
-            </div>
         </div>
       </div>
     </section>
