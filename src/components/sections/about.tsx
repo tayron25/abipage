@@ -4,7 +4,7 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 export default function AboutSection() {
   const pharmacyImage = PlaceHolderImages.find(p => p.id === 'pharmacy-interior');
   return (
-    <section id="about" className="w-full py-12 md:py-24 lg:py-32 bg-white">
+    <section id="about" className="w-full py-12 md:py-24 lg:py-32">
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid gap-10 lg:grid-cols-2 lg:gap-16 items-center">
           {pharmacyImage && (
