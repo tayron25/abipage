@@ -1,5 +1,3 @@
-import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Facebook, Instagram, Linkedin, Mail } from "lucide-react";
 import Link from 'next/link';
 
@@ -15,29 +13,25 @@ export default function ContactSection() {
             Estoy buscando activamente una nueva oportunidad para aportar valor. Me encantaría conversar sobre cómo mis habilidades pueden beneficiar a su equipo.
           </p>
         </div>
-        <div className="mx-auto mt-12 w-full max-w-md">
-            <Card>
-                <CardHeader>
-                    <CardTitle>Ponte en Contacto</CardTitle>
-                </CardHeader>
-                <CardContent className="space-y-6">
-                    <div className="flex justify-center gap-8">
-                        <Link href="#" target="_blank" rel="noopener noreferrer" aria-label="Instagram Profile">
-                            <Instagram className="h-8 w-8 text-primary hover:scale-110 transition-transform" />
-                        </Link>
-                        <Link href="#" target="_blank" rel="noopener noreferrer" aria-label="Facebook Profile">
-                            <Facebook className="h-8 w-8 text-primary hover:scale-110 transition-transform" />
-                        </Link>
-                        <Link href="#" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
-                            <Linkedin className="h-8 w-8 text-primary hover:scale-110 transition-transform" />
-                        </Link>
-                    </div>
-                    <div className="flex items-center justify-center gap-4 border-t pt-6">
-                        <Mail className="h-6 w-6 text-primary" />
-                        <a href="mailto:abigailrojasdecuellar@gmail.com" className="text-lg hover:text-primary transition-colors">abigailrojasdecuellar@gmail.com</a>
-                    </div>
-                </CardContent>
-            </Card>
+        <div className="mx-auto w-full max-w-md space-y-8">
+            <div className="space-y-4">
+                <h3 className="text-2xl font-bold tracking-tighter font-headline">Contacto</h3>
+                <div className="flex justify-center gap-8">
+                    <Link href="#" target="_blank" rel="noopener noreferrer" aria-label="Instagram Profile">
+                        <Instagram className="h-8 w-8 text-primary hover:scale-110 transition-transform" />
+                    </Link>
+                    <Link href="#" target="_blank" rel="noopener noreferrer" aria-label="Facebook Profile">
+                        <Facebook className="h-8 w-8 text-primary hover:scale-110 transition-transform" />
+                    </Link>
+                    <Link href="#" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
+                        <Linkedin className="h-8 w-8 text-primary hover:scale-110 transition-transform" />
+                    </Link>
+                </div>
+            </div>
+            <div className="flex items-center justify-center gap-4 border-t pt-6">
+                <Mail className="h-6 w-6 text-primary" />
+                <a href="mailto:abigailrojasdecuellar@gmail.com" className="text-lg hover:text-primary transition-colors">abigailrojasdecuellar@gmail.com</a>
+            </div>
         </div>
       </div>
     </section>
