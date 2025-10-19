@@ -12,7 +12,7 @@ const navLinks = [
 
 export default function Header() {
   return (
-    <header className="sticky top-0 z-50 w-full border-b bg-secondary/90 backdrop-blur-sm supports-[backdrop-filter]:bg-secondary/60 shadow-sm">
+    <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container mx-auto flex h-14 max-w-screen-2xl items-center justify-between px-4 md:px-6">
         <Link href="#" className="flex items-center gap-2">
           <span className="font-bold text-lg">Génesis Rojas Herrera</span>
@@ -23,7 +23,7 @@ export default function Header() {
             <Link
               key={link.href}
               href={link.href}
-              className="text-sm font-medium text-secondary-foreground transition-colors hover:text-primary"
+              className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
             >
               {link.label}
             </Link>
@@ -52,7 +52,7 @@ export default function Header() {
                     <Link
                       key={link.href}
                       href={link.href}
-                      className="text-muted-foreground transition-colors hover:text-primary"
+                      className="text-muted-foreground transition-colors hover:text-foreground"
                     >
                       {link.label}
                     </Link>
