@@ -1,7 +1,5 @@
 "use client"
 
-import { Linkedin } from 'lucide-react';
-import Link from 'next/link';
 import { useState, useEffect } from 'react';
 
 export default function Footer() {
@@ -18,11 +16,6 @@ export default function Footer() {
           <p className="text-center text-sm leading-loose text-muted-foreground md:text-left">
             &copy; {currentYear} Génesis Abigail Rojas Herrera. Todos los derechos reservados.
           </p>
-        </div>
-        <div className="flex items-center gap-4">
-          <Link href="#" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
-            <Linkedin className="h-6 w-6 text-muted-foreground hover:text-primary transition-colors" />
-          </Link>
         </div>
       </div>
     </footer>

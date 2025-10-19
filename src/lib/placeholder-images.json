@@ -3,14 +3,14 @@
     {
       "id": "professional-headshot",
       "description": "Professional headshot of Génesis Abigail Rojas Herrera",
-      "imageUrl": "https://images.unsplash.com/photo-1689600944138-da3b150d9cb8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwcm9mZXNzaW9uYWwlMjBoZWFkc2hvdCUyMHdvbWFufGVufDB8fHx8MTc2MDg1NDI4M3ww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "professional headshot woman"
+      "imageUrl": "/img/professional-headshot.jpg",
+      "imageHint": ""
     },
     {
       "id": "pharmacy-interior",
       "description": "A modern and clean pharmacy interior",
-      "imageUrl": "https://images.unsplash.com/photo-1760115290312-4c0637df790a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwaGFybWFjeSUyMGludGVyaW9yfGVufDB8fHx8MTc2MDg5NzcwMHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "pharmacy interior"
+      "imageUrl": "/img/pharmacy-interior.jpg",
+      "imageHint": ""
     }
   ]
 }

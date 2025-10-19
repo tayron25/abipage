@@ -15,7 +15,6 @@ export default function AboutSection() {
                 width={600}
                 height={400}
                 className="rounded-lg object-cover w-full aspect-[3/2] shadow-lg"
-                data-ai-hint={pharmacyImage.imageHint}
               />
             </div>
           )}

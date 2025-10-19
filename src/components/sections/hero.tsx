@@ -39,7 +39,6 @@ export default function HeroSection() {
                 width={400}
                 height={400}
                 className="aspect-square overflow-hidden rounded-full object-cover border-4 border-secondary shadow-lg"
-                data-ai-hint={headshot.imageHint}
                 priority
               />
             </div>
