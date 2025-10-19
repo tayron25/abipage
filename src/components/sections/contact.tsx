@@ -18,17 +18,17 @@ export default function ContactSection() {
           <div className="flex flex-col gap-8 items-center">
               <div className="space-y-4 text-left">
                   <h3 className="text-xl font-bold text-center">Información de Contacto</h3>
-                  <div className="space-y-3 text-muted-foreground">
-                      <div className="flex items-center gap-3">
-                          <User className="h-5 w-5 text-primary" />
+                  <div className="space-y-4 text-lg text-muted-foreground">
+                      <div className="flex items-center gap-4">
+                          <User className="h-6 w-6 text-primary" />
                           <span>Génesis Abigail Rojas Herrera</span>
                       </div>
-                      <div className="flex items-center gap-3">
-                          <Mail className="h-5 w-5 text-primary" />
+                      <div className="flex items-center gap-4">
+                          <Mail className="h-6 w-6 text-primary" />
                           <a href="mailto:abigailrojasdecuellar@gmail.com" className="hover:text-primary transition-colors">abigailrojasdecuellar@gmail.com</a>
                       </div>
-                      <div className="flex items-center gap-3">
-                          <Linkedin className="h-5 w-5 text-primary" />
+                      <div className="flex items-center gap-4">
+                          <Linkedin className="h-6 w-6 text-primary" />
                           <Link href="#" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Perfil de LinkedIn</Link>
                       </div>
                   </div>
