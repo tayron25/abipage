@@ -12,10 +12,10 @@ const navLinks = [
 
 export default function Header() {
   return (
-    <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+    <header className="sticky top-0 z-50 w-full border-b bg-background shadow-sm">
       <div className="container mx-auto flex h-14 max-w-screen-2xl items-center justify-between px-4 md:px-6">
         <Link href="#" className="flex items-center gap-2">
-          <span className="font-bold">Génesis Rojas Herrera</span>
+          <span className="font-bold text-lg">Génesis Rojas Herrera</span>
         </Link>
         
         <nav className="hidden md:flex gap-6">
@@ -23,7 +23,7 @@ export default function Header() {
             <Link
               key={link.href}
               href={link.href}
-              className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
+              className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
             >
               {link.label}
             </Link>
@@ -45,14 +45,14 @@ export default function Header() {
             <SheetContent side="right">
               <div className="flex flex-col h-full p-6">
                 <Link href="#" className="mb-8">
-                  <span className="font-bold">Génesis Rojas Herrera</span>
+                  <span className="font-bold text-lg">Génesis Rojas Herrera</span>
                 </Link>
                 <nav className="flex flex-col gap-6 text-lg font-medium">
                   {navLinks.map((link) => (
                     <Link
                       key={link.href}
                       href={link.href}
-                      className="text-muted-foreground transition-colors hover:text-foreground"
+                      className="text-muted-foreground transition-colors hover:text-primary"
                     >
                       {link.label}
                     </Link>
